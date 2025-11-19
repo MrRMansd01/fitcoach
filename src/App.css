@@ -1,0 +1,17 @@
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7; /* Light background for the overall page */
+        }
+        .icon-grid-item {
+            /* Styling for the small grid squares */
+            transition: transform 0.1s;
+        }
+        .icon-grid-item:hover {
+            transform: scale(1.1);
+        }
+        /* Custom classes for Luicde icons (using inline SVG fallback) */
+        .lucide-icon {
+            width: 20px;
+            height: 20px;
+        }
